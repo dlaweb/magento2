@@ -1,0 +1,1 @@
+/Users/macdavid/Sites/magento/app/code/Magento/Catalog/view/frontend/web/js/view/image.js
