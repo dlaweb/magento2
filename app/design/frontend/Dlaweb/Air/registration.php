@@ -1,7 +1,7 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: macdavid
- * Date: 22/07/2018
- * Time: 20:24
- */
+
+\Magento\Framework\Component\ComponentRegistrar::register(
+		\Magento\Framework\Component\ComponentRegistrar::THEME,
+		'frontend/Dlaweb/Air',
+		__DIR__
+	);

@@ -50,5 +50,27 @@ module.exports = {
             'css/styles'
         ],
         dsl: 'less'
+    },
+    air: {
+        area: 'frontend',
+        name: 'Dlaweb/Air',
+        locale: 'fr_FR',
+        files: [
+            'css/styles-m',
+            'css/styles-l',
+            'css/_styles'
+        ],
+        dsl: 'less'
+    },
+    fon: {
+        area: 'frontend',
+        name: 'Dlaweb/Fon',
+        locale: 'fr_FR',
+        files: [
+            'css/styles-m',
+            'css/styles-l',
+            'css/Fon'
+        ],
+        dsl: 'less'
     }
 };
