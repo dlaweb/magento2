@@ -1,1 +1,0 @@
-/Users/macdavid/Sites/magento/lib/web/mage/apply/scripts.js
