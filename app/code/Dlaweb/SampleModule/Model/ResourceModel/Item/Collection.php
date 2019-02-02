@@ -13,6 +13,6 @@ class Collection extends AbstractCollection
 
     protected function _construct()
     {
-        $this->init(Item::class, ItemResource::class);
+        $this->_init(Item::class, ItemResource::class);
     }
 }

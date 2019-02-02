@@ -7,6 +7,6 @@ class Item extends AbstractModel
 {
     protected function _construct()
     {
-        $this->_init(Dlaweb\SampleModule\Model\ResourceModel\Item::class);
+        $this->_init(\Dlaweb\SampleModule\Model\ResourceModel\Item::class);
     }
 }
