@@ -1,0 +1,12 @@
+<?php
+/** @var \Dlaweb\SampleModule\Block\Hello $block */
+?>
+
+<h1>
+egjekgjbe
+</h1>
+<?php foreach ($block->getItems() as $item): ?>
+<p>
+<?php echo $item->getName(); ?>: <?php echo $item->getDescription(); ?>
+</p>
+<?php endforeach; ?>
