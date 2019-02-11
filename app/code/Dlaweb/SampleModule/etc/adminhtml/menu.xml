@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <menu>
+        <add id="Dlaweb_SampleModule::mastering" title="Mastering" module="Dlaweb_SampleModule" 
+        resource="Mastering_SampleModule::mastering" translate="title" sortOrder="999" action="mastering"/>
+    </menu>
+</config>
