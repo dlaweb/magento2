@@ -7,4 +7,6 @@
             </argument>
         </arguments>
     </type>
+    <preference type="Dlaweb\SampleModule\Model\Item" for="Dlaweb\SampleModule\Api\Data\ItemInterface"/>
+    <preference type="Dlaweb\SampleModule\Model\ItemRepository" for="Dlaweb\SampleModule\Api\ItemRepositoryInterface"/>
 </config>
