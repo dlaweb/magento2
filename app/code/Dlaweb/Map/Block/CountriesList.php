@@ -9,7 +9,7 @@
 namespace Dlaweb\Map\Block;
 use Magento\Framework\View\Element\Template;
 
-class CountryList extends \Magento\Framework\View\Element\Template
+class CountriesList extends \Magento\Framework\View\Element\Template
 {
 	public function __construct(Template\Context $context, array $data = [])
 	{

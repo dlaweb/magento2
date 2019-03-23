@@ -2,7 +2,7 @@
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceContainer name="content">
-            <block class="Dlaweb\Map\Block\CountriesList" name="contactForm" template="Dlaweb_Map::map_index.phtml"></block>
+            <block class="Dlaweb\Map\Block\Dropdown" name="nomdubloc" template="Dlaweb_Map::dropdown/drop.phtml"></block>
         </referenceContainer>
     </body>
 </page>

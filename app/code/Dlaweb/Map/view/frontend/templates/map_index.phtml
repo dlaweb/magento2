@@ -1,5 +1,70 @@
 <div class="row">
-    <div class=-"col-md-6">
-        hello
+    <div class="col-md-6">
+        <h2>Empty</h2>
+
+        <?php $countries = $this->getData('countries');
+
+                foreach ($countries as $country){
+                    echo $country;
+                }
+         ?>
+
+    </div>
+    <div class="col-md-6">
+        <h2>10 Count</h2>
+
+		<?php
+        $this->addCountries(10);
+
+        $countries = $this->getData('countries');
+
+		foreach ($countries as $country){
+			echo $country;
+		}
+		?>
+
     </div>
 </div>
+
+<div class="row">
+    <div class="col-md-6">
+        <h2>20 Count</h2>
+
+        <?php
+        $this->addCountries(10);
+        $countries = $this->getData('countries');
+
+        foreach ($countries as $country){
+            echo $country;
+        }
+
+        ?>
+
+    </div>
+</div>
+
+<div class="row" data-bind="scope: 'koexample'">
+
+</div>
+
+<script type="text/x-magento-init">
+
+    {
+        "*":{
+            "Magento_Ui/js/core/app": {
+
+                "components":{
+                    "koexample":{
+
+                        "component":"Dlaweb_Map/view/frontend/js/koexample",
+                        "template": "Dlaweb_Map/view/frontend/template/example"
+
+                    }
+
+                }
+            }
+        }
+    }
+
+</script>
+
